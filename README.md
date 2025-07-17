@@ -2,7 +2,10 @@
 Project Dataset- https://www.kaggle.com/datasets/sanjanchaudhari/spotify-dataset
 
 ![Alt text](https://github.com/Shekhar425/Spotify_Analysis_Project/blob/8967acc4a03dcac929f18b43f98817adb1e26b26/spotify_image.png)
- DROP TABLE IF EXISTS spotify;
+
+**Overview**
+This project involves analyzing a Spotify dataset with various attributes about tracks, albums, and artists using SQL. It covers an end-to-end process of normalizing a denormalized dataset, performing SQL queries of varying complexity (easy, medium, and advanced), and optimizing query performance. The primary goals of the project are to practice advanced SQL skills and generate valuable insights from the dataset.
+
  
 ``` CREATE TABLE spotify (
     artist VARCHAR(255),
@@ -31,5 +34,26 @@ Project Dataset- https://www.kaggle.com/datasets/sanjanchaudhari/spotify-dataset
     most_played_on VARCHAR(50)
 );
 ```
+**Project Steps**
+1. Data Exploration
+Before diving into SQL, it’s important to understand the dataset thoroughly. The dataset contains attributes such as:
 
-Check for final Check
+Artist: The performer of the track.
+Track: The name of the song.
+Album: The album to which the track belongs.
+Album_type: The type of album (e.g., single or album).
+Various metrics such as danceability, energy, loudness, tempo, and more.
+4. Querying the Data
+After the data is inserted, various SQL queries can be written to explore and analyze the data. Queries are categorized into easy, medium, and advanced levels to help progressively develop SQL proficiency.
+
+**Easy Queries**
+Simple data retrieval, filtering, and basic aggregations.
+**Medium Queries**
+More complex queries involving grouping, aggregation functions, and joins.
+**Advanced Queries**
+Nested subqueries, window functions, CTEs, and performance optimization.
+5. Query Optimization
+In advanced stages, the focus shifts to improving query performance. Some optimization strategies include:
+
+Indexing: Adding indexes on frequently queried columns.
+Query Execution Plan: Using EXPLAIN ANALYZE to review and refine query performance.
