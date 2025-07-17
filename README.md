@@ -38,6 +38,7 @@ This project involves analyzing a Spotify dataset with various attributes about 
 1. Data Exploration
 Before diving into SQL, it’s important to understand the dataset thoroughly. The dataset contains attributes such as:
 
+
 Artist: The performer of the track.
 Track: The name of the song.
 Album: The album to which the track belongs.
@@ -54,6 +55,11 @@ More complex queries involving grouping, aggregation functions, and joins.
 Nested subqueries, window functions, CTEs, and performance optimization.
 5. Query Optimization
 In advanced stages, the focus shifts to improving query performance. Some optimization strategies include:
+Indexing: Adding indexes on frequently queried columns.
+Query Execution Plan: Using EXPLAIN ANALYZE to review and refine query performance.
+
+
+
 
 Indexing: Adding indexes on frequently queried columns.
 Query Execution Plan: Using EXPLAIN ANALYZE to review and refine query performance.
