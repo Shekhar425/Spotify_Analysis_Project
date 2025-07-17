@@ -1,5 +1,9 @@
 # Spotify_Analysis_Project
+Project Dataset- https://www.kaggle.com/datasets/sanjanchaudhari/spotify-dataset
+
+![Alt text]()
  DROP TABLE IF EXISTS spotify;
+ 
 ``` CREATE TABLE spotify (
     artist VARCHAR(255),
     track VARCHAR(255),
