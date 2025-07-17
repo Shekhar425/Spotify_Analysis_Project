@@ -1,6 +1,6 @@
 # Spotify_Analysis_Project
-``` DROP TABLE IF EXISTS spotify;
-CREATE TABLE spotify (
+ DROP TABLE IF EXISTS spotify;
+``` CREATE TABLE spotify (
     artist VARCHAR(255),
     track VARCHAR(255),
     album VARCHAR(255),
