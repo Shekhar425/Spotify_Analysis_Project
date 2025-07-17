@@ -1,5 +1,5 @@
 # Spotify_Analysis_Project
-''' DROP TABLE IF EXISTS spotify;
+``` DROP TABLE IF EXISTS spotify;
 CREATE TABLE spotify (
     artist VARCHAR(255),
     track VARCHAR(255),
@@ -25,4 +25,7 @@ CREATE TABLE spotify (
     stream BIGINT,
     energy_liveness FLOAT,
     most_played_on VARCHAR(50)
-); '''
+);
+```
+
+Check for final Check
