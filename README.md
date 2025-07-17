@@ -1,7 +1,7 @@
 # Spotify_Analysis_Project
 Project Dataset- https://www.kaggle.com/datasets/sanjanchaudhari/spotify-dataset
 
-![Alt text]()
+![Alt text](https://github.com/Shekhar425/Spotify_Analysis_Project/blob/8967acc4a03dcac929f18b43f98817adb1e26b26/spotify_image.png)
  DROP TABLE IF EXISTS spotify;
  
 ``` CREATE TABLE spotify (
